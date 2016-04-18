@@ -62,7 +62,7 @@ And a KVO observation for model object changes that can be accessed by overridin
 
 ```
 
-As a convenience in your .m ``` @implementation ``` you can declare the interface using the ```BIG_MODEL_INTERFACE(MyAwesomeModelType)``` and the following property will be implemented: 
+As a convenience in your .m ``` @implementation ``` you can declare the interface using the ```BIG_STRONG_MODEL_INTERFACE(MyAwesomeModelType)``` and the following property will be implemented: 
 
 ```objc
 

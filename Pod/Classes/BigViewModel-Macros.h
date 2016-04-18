@@ -22,7 +22,7 @@ BIG_IMPLEMENT_SET_MODEL \
 #define BIG_MODEL_INTERFACE \
 @property (nonatomic,strong) id big_modelObject;
 
-#define BIG_MODEL_INTERFACE(__CLASS__) \
+#define BIG_STRONG_MODEL_INTERFACE(__CLASS__) \
 @property (nonatomic,strong) __CLASS__ *big_modelObject;
 
 #define BIG_IMPLEMENT_SET_MODEL \
