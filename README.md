@@ -54,20 +54,19 @@ These macros implement a model object property in the class:
 
 ```
 
-And a KVO observation for model object changes that can be accessed by overriding the following instance method: 
-
-```objc
-
-- (void)big_didUpdateModel:(id)model
-
-```
-
-As a convenience in your .m ``` @implementation ``` you can declare the interface using the ```BIG_STRONG_MODEL_INTERFACE(MyAwesomeModelType)``` and the following property will be implemented: 
+As an alternative convenience to ```BIG_IMPLEMENT_SET_MODEL```, you can declare the interface using the ```BIG_STRONG_MODEL_INTERFACE(MyAwesomeModelType)``` and the following property will be implemented: 
 
 ```objc
 
 @property (nonatomic,strong) MyAwesomeModelType *big_modelObject;
 
+```
+
+And a KVO observation for model object changes that can be accessed by overriding the following instance method: 
+
+```objc
+
+- (void)big_didUpdateModel:(id)model
 
 ```
 
