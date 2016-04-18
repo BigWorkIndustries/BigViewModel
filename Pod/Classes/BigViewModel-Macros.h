@@ -22,6 +22,9 @@ BIG_IMPLEMENT_SET_MODEL \
 #define BIG_MODEL_INTERFACE \
 @property (nonatomic,strong) id big_modelObject;
 
+#define BIG_MODEL_INTERFACE(__CLASS__) \
+@property (nonatomic,strong) __CLASS__ *big_modelObject;
+
 #define BIG_IMPLEMENT_SET_MODEL \
 @synthesize big_modelObject = _big_modelObject; \
 - (void)setbig_modelObject:(id)modelObject { \
