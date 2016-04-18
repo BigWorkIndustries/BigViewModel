@@ -22,7 +22,7 @@ pod "BigViewModel"
 
 ## Use
 
-In your .h ```objc @interface ``` add ```BIG_MODEL_INTERFACE ``` like this:
+In your .h ``` @interface ``` add ```BIG_MODEL_INTERFACE ``` like this:
 
 ```objc
 
@@ -34,7 +34,7 @@ BIG_MODEL_INTERFACE
 
 ```
 
-And in your .m ```objc @implementation ``` add ```BIG_IMPLEMENT_SET_MODEL```
+And in your .m ``` @implementation ``` add ```BIG_IMPLEMENT_SET_MODEL```
 
 ```objc
 
@@ -62,7 +62,7 @@ And a KVO observation for model object changes that can be accessed by overridin
 
 ```
 
-As a convenience in your .m ```objc @implementation ``` add ```BIG_STRONG_MODEL_ACCESSOR(MyAwesomeModelType)``` and the following accessor will be implemented: 
+As a convenience in your .m ``` @implementation ``` add ```BIG_STRONG_MODEL_ACCESSOR(MyAwesomeModelType)``` and the following accessor will be implemented: 
 
 ```objc
 
@@ -71,7 +71,7 @@ As a convenience in your .m ```objc @implementation ``` add ```BIG_STRONG_MODEL_
 ```
 
 
-As a convenience in your .m ```objc @implementation ``` you can also declare the interface using the ```BIG_MODEL_INTERFACE(MyAwesomeModelType)``` and the following property will be implemented: 
+As a convenience in your .m ``` @implementation ``` you can also declare the interface using the ```BIG_MODEL_INTERFACE(MyAwesomeModelType)``` and the following property will be implemented: 
 
 ```objc
 
