@@ -22,9 +22,9 @@ pod "BigViewModel"
 
 ## Use
 
-In your .h ```objective-c @interface ``` add ```BIG_MODEL_INTERFACE ``` like this:
+In your .h ```objc @interface ``` add ```BIG_MODEL_INTERFACE ``` like this:
 
-```objective-c
+```objc
 
 @interface MYViewControllerBase : UIViewController
 
@@ -34,9 +34,9 @@ BIG_MODEL_INTERFACE
 
 ```
 
-And in your .m ```objective-c @implementation ``` add ```BIG_IMPLEMENT_SET_MODEL```
+And in your .m ```objc @implementation ``` add ```BIG_IMPLEMENT_SET_MODEL```
 
-```objective-c
+```objc
 
 @implementation MYViewControllerBase
 
@@ -48,7 +48,7 @@ BIG_IMPLEMENT_SET_MODEL
 
 These macros implement a model object property in the class:
 
-```objective-c
+```objc
 
 @property (nonatomic,strong) id big_modelObject;
 
@@ -56,24 +56,24 @@ These macros implement a model object property in the class:
 
 And a KVO observation for model object changes that can be accessed by overriding the following instance method: 
 
-```objective-c
+```objc
 
 - (void)big_didUpdateModel:(id)model
 
 ```
 
-As a convenience in your .m ```objective-c @implementation ``` add ```BIG_STRONG_MODEL_ACCESSOR(MyAwesomeModelType)``` and the following accessor will be implemented: 
+As a convenience in your .m ```objc @implementation ``` add ```BIG_STRONG_MODEL_ACCESSOR(MyAwesomeModelType)``` and the following accessor will be implemented: 
 
-```objective-c
+```objc
 
 - (MyAwesomeModelType*) big_strongModel
 
 ```
 
 
-As a convenience in your .m ```objective-c @implementation ``` you can also declare the interface using the ```BIG_MODEL_INTERFACE(MyAwesomeModelType)``` and the following property will be implemented: 
+As a convenience in your .m ```objc @implementation ``` you can also declare the interface using the ```BIG_MODEL_INTERFACE(MyAwesomeModelType)``` and the following property will be implemented: 
 
-```objective-c
+```objc
 
 @property (nonatomic,strong) MyAwesomeModelType *big_modelObject;
 
