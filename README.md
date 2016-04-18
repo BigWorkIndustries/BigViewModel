@@ -62,21 +62,20 @@ And a KVO observation for model object changes that can be accessed by overridin
 
 ```
 
-As a convenience in your .m ``` @implementation ``` add ```BIG_STRONG_MODEL_ACCESSOR(MyAwesomeModelType)``` and the following accessor will be implemented: 
-
-```objc
-
-- (MyAwesomeModelType*) big_strongModel
-
-```
-
-
-As a convenience in your .m ``` @implementation ``` you can also declare the interface using the ```BIG_MODEL_INTERFACE(MyAwesomeModelType)``` and the following property will be implemented: 
+As a convenience in your .m ``` @implementation ``` you can declare the interface using the ```BIG_MODEL_INTERFACE(MyAwesomeModelType)``` and the following property will be implemented: 
 
 ```objc
 
 @property (nonatomic,strong) MyAwesomeModelType *big_modelObject;
 
+
+```
+
+As a convenience in your .m ``` @implementation ``` add ```BIG_STRONG_MODEL_ACCESSOR(MyAwesomeModelType)``` and the following accessor will be implemented: 
+
+```objc
+
+- (MyAwesomeModelType*) big_strongModel
 
 ```
 
