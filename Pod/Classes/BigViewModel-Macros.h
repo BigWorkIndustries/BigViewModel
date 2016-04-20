@@ -12,7 +12,13 @@
 // HEADER / IMPLEMENTATION MACROS
 
 #define BIG_VIEW_MODEL_PROPERTY(__TYPE__) \
+BIG_VIEW_MODEL_PROPERTY_ONLY(__TYPE__) \
+BIG_VIEW_MODEL_METHOD_SIGNATURE(__TYPE__)
+
+#define BIG_VIEW_MODEL_PROPERTY_ONLY(__TYPE__) \
 @property (nonatomic,strong) __TYPE__ big_model; \
+
+#define BIG_VIEW_MODEL_METHOD_SIGNATURE(__TYPE__) \
 - (void)big_didUpdateModel:(__TYPE__)big_model;
 
 #define BIG_VIEW_MODEL_KVO(__TYPE__) \
