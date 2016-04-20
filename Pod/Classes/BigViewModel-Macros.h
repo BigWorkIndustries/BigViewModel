@@ -9,8 +9,7 @@
 #ifndef BigViewModelMacros_h
 #define BigViewModelMacros_h
 
-//#define BIG_MODEL_INTERFACE \
-//@property (nonatomic,strong) id big_modelObject;
+// HEADER / IMPLEMENTATION MACROS
 
 #define BIG_VIEW_MODEL_PROPERTY(__TYPE__) \
 @property (nonatomic,strong) __TYPE__ big_model; \
@@ -27,16 +26,7 @@ if ([self respondsToSelector:@selector(big_didUpdateModel:)]) { \
 } \
 }
 
-//#define BIG_IMPLEMENT_DID_UPDATE_MODEL \
-//- (void)big_didUpdateModel:(__CLASS__)big_model { \
-//} \
-
-//#define BIG_STRONG_MODEL_ACCESSOR(__CLASS__) \
-//- (__CLASS__*) big_strongModel { \
-//return self.big_modelObject; \
-//}
-
-// CONVENIENCE CLASS INTERFAC / IMPLEMENTATIONS
+// CONVENIENCE CLASS INTERFACE / IMPLEMENTATION MACROS
 
 #define BIG_VIEW_MODEL_CLASS_INTERFACE(__CLASS__, __SUPERCLASS__, __TYPE__) \
 @interface __CLASS__ : __SUPERCLASS__ <BIGSingluarModelView>  \

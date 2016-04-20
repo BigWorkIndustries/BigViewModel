@@ -22,61 +22,52 @@ pod "BigViewModel"
 
 ## Use
 
-In your .h ``` @interface ``` add ```BIG_MODEL_INTERFACE ``` like this:
+In your .h ``` @interface ``` add ``` BIG_VIEW_MODEL_PROPERTY() ``` for example:
 
 ```objc
 
 @interface MYViewControllerBase : UIViewController
 
-BIG_MODEL_INTERFACE
+BIG_VIEW_MODEL_PROPERTY(MyAwesomeModelType*)
 
 @end
 
 ```
 
-And in your .m ``` @implementation ``` add ```BIG_IMPLEMENT_SET_MODEL```
+And in your .m ``` @implementation ``` add ``` BIG_VIEW_MODEL_KVO() ``` for example:
 
 ```objc
 
 @implementation MYViewControllerBase
 
-BIG_IMPLEMENT_SET_MODEL
+BIG_VIEW_MODEL_KVO(MyAwesomeModelType*)
 
 @end
 
 ```
 
-These macros implement a model object property in the class:
+These macros implement a model object property and method signature in the class, for example:
 
 ```objc
 
-@property (nonatomic,strong) id big_modelObject;
+@property (nonatomic,strong) MyAwesomeModelType* big_model;
+
+- (void)big_didUpdateModel:(MyAwesomeModelType*)big_model;
 
 ```
 
-As an alternative convenience to ```BIG_IMPLEMENT_SET_MODEL```, you can declare the interface using the ```BIG_STRONG_MODEL_INTERFACE(MyAwesomeModelType)``` and the following property will be implemented: 
+Implement the ``` - (void)big_didUpdateModel: ``` method in the .m file of the class, ror example: 
 
 ```objc
 
-@property (nonatomic,strong) MyAwesomeModelType *big_modelObject;
+- (void)big_didUpdateModel:(MyAwesomeModelType*)big_model
+{
+    // 
+}
 
 ```
 
-And a KVO observation for model object changes that can be accessed by overriding the following instance method: 
-
-```objc
-
-- (void)big_didUpdateModel:(id)model
-
-```
-
-As a convenience in your .m ``` @implementation ``` add ```BIG_STRONG_MODEL_ACCESSOR(MyAwesomeModelType)``` and the following accessor will be implemented: 
-
-```objc
-
-- (MyAwesomeModelType*) big_strongModel
-
-```
+The ``` - (void)big_didUpdateModel: ``` method will be called whenever the self.big_model property is changed.
 
 
 ## Author
