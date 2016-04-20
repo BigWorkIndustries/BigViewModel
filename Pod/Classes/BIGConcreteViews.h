@@ -16,18 +16,18 @@
 
 // Modeled INTERFACES //
 
-BIG_VIEW_MODEL_INTERFACE(BIGModeledTableViewController, UITableViewController)
+BIG_VIEW_MODEL_CLASS_INTERFACE(BIGModeledTableViewController, UITableViewController, id)
 
-BIG_VIEW_MODEL_INTERFACE(BIGModeledCollectionViewController, UICollectionViewController)
+BIG_VIEW_MODEL_CLASS_INTERFACE(BIGModeledCollectionViewController, UICollectionViewController, id)
 
-BIG_VIEW_MODEL_INTERFACE(BIGModeledTableViewCell, UITableViewCell)
+BIG_VIEW_MODEL_CLASS_INTERFACE(BIGModeledTableViewCell, UITableViewCell, id)
 
-BIG_VIEW_MODEL_INTERFACE(BIGModeledCollectionViewCell, UICollectionViewCell)
+BIG_VIEW_MODEL_CLASS_INTERFACE(BIGModeledCollectionViewCell, UICollectionViewCell, id)
 
-BIG_VIEW_MODEL_INTERFACE(BIGModeledCollectionReusableView, UICollectionReusableView)
+BIG_VIEW_MODEL_CLASS_INTERFACE(BIGModeledCollectionReusableView, UICollectionReusableView, id)
 
-BIG_VIEW_MODEL_INTERFACE(BIGModeledView, UIView)
+BIG_VIEW_MODEL_CLASS_INTERFACE(BIGModeledView, UIView, id)
 
-BIG_VIEW_MODEL_INTERFACE(BIGModeledViewController, UIViewController)
+BIG_VIEW_MODEL_CLASS_INTERFACE(BIGModeledViewController, UIViewController, id)
 
 
