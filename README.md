@@ -61,7 +61,7 @@ Implement the ``` - (void)big_didUpdateModel: ``` method in the .m file of the c
 
 - (void)big_didUpdateModel:(MyAwesomeModelType*)big_model
 {
-    // 
+    // Do something dynamically profound in a programmatic fashion with big_model!
 }
 
 ```
