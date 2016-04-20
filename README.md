@@ -73,7 +73,7 @@ The ``` - (void)big_didUpdateModel: ``` method will be called whenever the self.
 
 ## Author
 
-* BigViewModel is developed by [Vincil Bishop](vincil@bigworkindustries.com) of Big Work Industries, LLC. 
+* BigViewModel is developed by [Vincil Bishop](mailto:vincil@bigworkindustries.com) of Big Work Industries, LLC. 
 * Check out our other repositories [here](https://github.com/BigWorkIndustries)
 * Visit us online at [BigWorkIndustries.com](http://www.bigworkindustries.com)
 
