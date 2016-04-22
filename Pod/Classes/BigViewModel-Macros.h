@@ -16,19 +16,19 @@ BIG_VIEW_MODEL_PROPERTY_ONLY(__TYPE__) \
 BIG_VIEW_MODEL_METHOD_SIGNATURE(__TYPE__)
 
 #define BIG_VIEW_MODEL_PROPERTY_ONLY(__TYPE__) \
-@property (nonatomic,strong) __TYPE__ big_model; \
+@property (nonatomic,strong) __TYPE__ bigModel; \
 
 #define BIG_VIEW_MODEL_METHOD_SIGNATURE(__TYPE__) \
-- (void)big_didUpdateModel:(__TYPE__)big_model;
+- (void)didUpdateBigModel:(__TYPE__)bigModel;
 
 #define BIG_VIEW_MODEL_KVO(__TYPE__) \
-@synthesize big_model = _big_model; \
-- (void)setbig_model:(__TYPE__)value { \
-[self willChangeValueForKey:@"big_model"]; \
-_big_model = value; \
-[self didChangeValueForKey:@"big_model"]; \
-if ([self respondsToSelector:@selector(big_didUpdateModel:)]) { \
-[self performSelector:@selector(big_didUpdateModel:) withObject:value]; \
+@synthesize bigModel = _bigModel; \
+- (void)setBigModel:(__TYPE__)value { \
+[self willChangeValueForKey:@"bigModel"]; \
+_bigModel = value; \
+[self didChangeValueForKey:@"bigModel"]; \
+if ([self respondsToSelector:@selector(didUpdateBigModel:)]) { \
+[self performSelector:@selector(didUpdateBigModel:) withObject:value]; \
 } \
 }
 
@@ -36,7 +36,7 @@ if ([self respondsToSelector:@selector(big_didUpdateModel:)]) { \
 
 #define BIG_VIEW_MODEL_CLASS_INTERFACE(__CLASS__, __SUPERCLASS__, __TYPE__) \
 @interface __CLASS__ : __SUPERCLASS__ <BIGSingluarModelView>  \
-BIG_VIEW_MODEL_PROPERTY(__TYPE__) \
+BIG_VIEW_MODEL_PROPERTY_ONLY(__TYPE__) \
 @end
 
 #define BIG_VIEW_MODEL_CLASS_IMPLEMENTATION(__CLASS_NAME__, __TYPE__) \

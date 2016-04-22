@@ -49,26 +49,26 @@ These macros implement a model object property and method signature in the class
 
 ```objc
 
-@property (nonatomic,strong) MyAwesomeModelType* big_model;
+@property (nonatomic,strong) MyAwesomeModelType* bigModel;
 
-- (void)big_didUpdateModel:(MyAwesomeModelType*)big_model;
+- (void)didUpdateBigModel:(MyAwesomeModelType*)bigModel;
 
 ```
 
-Implement the ``` - (void)big_didUpdateModel: ``` method in the .m file of the class, ror example: 
+Implement the ``` - (void)didUpdateBigModel: ``` method in the .m file of the class, ror example: 
 
 ```objc
 
-- (void)big_didUpdateModel:(MyAwesomeModelType*)big_model
+- (void)didUpdateBigModel:(MyAwesomeModelType*)bigModel
 {
-    // Do something dynamically profound in a programmatic fashion with big_model!
+    // Do something dynamically profound in a programmatic fashion with bigModel!
 }
 
 ```
 
-The ``` - (void)big_didUpdateModel: ``` method will be called whenever the self.big_model property is changed.
+The ``` - (void)didUpdateBigModel: ``` method will be called whenever the self.big_model property is changed.
 
-* Note: If you don't override the ``` - (void)big_didUpdateModel: ``` method, a compiler warning will be generated. If you don't plan to implement that method, you can use the ``` BIG_VIEW_MODEL_PROPERTY_ONLY() ``` method instead of the ``` BIG_VIEW_MODEL_PROPERTY() ``` method in your .h class header file. 
+* Note: If you don't override the ``` - (void)didUpdateBigModel: ``` method, a compiler warning will be generated. If you don't plan to implement that method, you can use the ``` BIG_VIEW_MODEL_PROPERTY_ONLY() ``` method instead of the ``` BIG_VIEW_MODEL_PROPERTY() ``` method in your .h class header file. 
 
 
 ## Author
