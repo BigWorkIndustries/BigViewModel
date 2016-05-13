@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "BigViewModel"
-  s.version          = "0.1.0"
+  s.version          = "1.0.0"
   s.summary          = "A collection of Objective-C macros that provide convenience methods for observing model objects on views."
 
 # This description is used to generate tags and improve search results.
