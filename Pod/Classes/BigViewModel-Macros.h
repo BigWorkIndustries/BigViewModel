@@ -32,16 +32,4 @@ if ([self respondsToSelector:@selector(didUpdateBigModel:)]) { \
 } \
 }
 
-// CONVENIENCE CLASS INTERFACE / IMPLEMENTATION MACROS
-
-#define BIG_VIEW_MODEL_CLASS_INTERFACE(__CLASS__, __SUPERCLASS__, __TYPE__) \
-@interface __CLASS__ : __SUPERCLASS__ <BIGSingluarModelView>  \
-BIG_VIEW_MODEL_PROPERTY_ONLY(__TYPE__) \
-@end
-
-#define BIG_VIEW_MODEL_CLASS_IMPLEMENTATION(__CLASS_NAME__, __TYPE__) \
-@implementation __CLASS_NAME__ \
-BIG_VIEW_MODEL_KVO(__TYPE__) \
-@end
-
 #endif /* BigViewModelMacros_h */

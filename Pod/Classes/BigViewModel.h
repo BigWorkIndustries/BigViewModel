@@ -11,8 +11,4 @@
 
 #import "BigViewModel-Macros.h"
 
-#import "BIGModeledView.h"
-
-#import "BIGConcreteViews.h"
-
 #endif /* BigViewModel_h */
