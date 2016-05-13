@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+  					   A BIG collection of Objective-C macros that provide convenience methods for observing model objects on views
                        DESC
 
   s.homepage         = "https://github.com/bigworkindustries/BigViewModel"
@@ -29,7 +30,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
+  s.source_files = 'Pod/Classes/**/*.{h,m}'
   s.resource_bundles = {
     'BigViewModel' => ['Pod/Assets/*.png']
   }
