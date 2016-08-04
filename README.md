@@ -77,6 +77,9 @@ The ``` - (void)didUpdateBigModel: ``` method will be called whenever the self.b
 * Check out our other repositories [here](https://github.com/BigWorkIndustries)
 * Visit us online at [BigWorkIndustries.com](http://www.bigworkindustries.com)
 
+## Acknowledgments
+
+* A big thanks to [Surge](http://www.surgeforward.com) for their contributions to this and other open source projects.
 
 ## License
 
