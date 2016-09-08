@@ -1,5 +1,5 @@
 PODS:
-  - BigViewModel (0.1.0)
+  - BigViewModel (1.0.0)
   - Expecta (1.0.5)
   - Specta (1.0.5)
 
@@ -13,8 +13,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BigViewModel: e1c73e6020db49aa7afcf36587a944768d24a6f9
+  BigViewModel: 03d1e19dcb7ebdb9524919004134d66c64b1a096
   Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
   Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: d3d847f117c0a09b5b389249566e78e3edb85550
+
+COCOAPODS: 1.0.1

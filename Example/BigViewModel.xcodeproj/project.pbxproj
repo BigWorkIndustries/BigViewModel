@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2DCA55FB0461A723B231D20D /* Pods_BigViewModel_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327C1B637CAE12F0D8D64234 /* Pods_BigViewModel_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,8 +20,9 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		7E87187ABD562033EA8ACCE8 /* Pods_BigViewModel_Example_BigViewModel_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E3DB34C24452A4C1B3CDFD /* Pods_BigViewModel_Example_BigViewModel_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		92807EA9C9BF6A5AB503F666 /* Pods_BigViewModel_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188552AAE6BAC492B5EE0164 /* Pods_BigViewModel_Example.framework */; };
+		C1C799DFBD41A65A2C5F6E64 /* Pods_BigViewModel_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F908CB3DF911D0CD2F2A4635 /* Pods_BigViewModel_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		188552AAE6BAC492B5EE0164 /* Pods_BigViewModel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigViewModel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		327C1B637CAE12F0D8D64234 /* Pods_BigViewModel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigViewModel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		03E3DB34C24452A4C1B3CDFD /* Pods_BigViewModel_Example_BigViewModel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigViewModel_Example_BigViewModel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48C2D05508E07EB9A28AB083 /* Pods-BigViewModel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigViewModel_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BigViewModel_Example/Pods-BigViewModel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		55E1B6D58E03D6A117BBFB8A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* BigViewModel_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigViewModel_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,13 +58,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6CCBCB7901CDFE23413275A5 /* Pods-BigViewModel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigViewModel_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BigViewModel_Tests/Pods-BigViewModel_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		72883F1C3A4CB425F861FEA4 /* Pods-BigViewModel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigViewModel_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BigViewModel_Example/Pods-BigViewModel_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		784151181548E636C03D2863 /* Pods-BigViewModel_Example-BigViewModel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigViewModel_Example-BigViewModel_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BigViewModel_Example-BigViewModel_Tests/Pods-BigViewModel_Example-BigViewModel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8861F417E68EEC5FB0AAF41E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		8B2CD3D09A3412A508E4DFA9 /* Pods-BigViewModel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigViewModel_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BigViewModel_Example/Pods-BigViewModel_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9E954F952E43C7090CA86F47 /* BigViewModel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BigViewModel.podspec; path = ../BigViewModel.podspec; sourceTree = "<group>"; };
-		F883EEFEC0C27D4EED2E01E5 /* Pods-BigViewModel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigViewModel_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BigViewModel_Tests/Pods-BigViewModel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AD348422DB2A8EF2BF9201F5 /* Pods-BigViewModel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigViewModel_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BigViewModel_Example/Pods-BigViewModel_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CF5227A4C56E8429FA9DAAE5 /* Pods-BigViewModel_Example-BigViewModel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigViewModel_Example-BigViewModel_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BigViewModel_Example-BigViewModel_Tests/Pods-BigViewModel_Example-BigViewModel_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F908CB3DF911D0CD2F2A4635 /* Pods_BigViewModel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigViewModel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				92807EA9C9BF6A5AB503F666 /* Pods_BigViewModel_Example.framework in Frameworks */,
+				C1C799DFBD41A65A2C5F6E64 /* Pods_BigViewModel_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,20 +86,20 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				2DCA55FB0461A723B231D20D /* Pods_BigViewModel_Tests.framework in Frameworks */,
+				7E87187ABD562033EA8ACCE8 /* Pods_BigViewModel_Example_BigViewModel_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		277D60D7B0B26767E7245695 /* Pods */ = {
+		11780EFADDB27BED7D919A48 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				72883F1C3A4CB425F861FEA4 /* Pods-BigViewModel_Example.debug.xcconfig */,
-				8B2CD3D09A3412A508E4DFA9 /* Pods-BigViewModel_Example.release.xcconfig */,
-				F883EEFEC0C27D4EED2E01E5 /* Pods-BigViewModel_Tests.debug.xcconfig */,
-				6CCBCB7901CDFE23413275A5 /* Pods-BigViewModel_Tests.release.xcconfig */,
+				48C2D05508E07EB9A28AB083 /* Pods-BigViewModel_Example.debug.xcconfig */,
+				AD348422DB2A8EF2BF9201F5 /* Pods-BigViewModel_Example.release.xcconfig */,
+				784151181548E636C03D2863 /* Pods-BigViewModel_Example-BigViewModel_Tests.debug.xcconfig */,
+				CF5227A4C56E8429FA9DAAE5 /* Pods-BigViewModel_Example-BigViewModel_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -112,7 +112,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				277D60D7B0B26767E7245695 /* Pods */,
+				11780EFADDB27BED7D919A48 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,8 +132,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				188552AAE6BAC492B5EE0164 /* Pods_BigViewModel_Example.framework */,
-				327C1B637CAE12F0D8D64234 /* Pods_BigViewModel_Tests.framework */,
+				F908CB3DF911D0CD2F2A4635 /* Pods_BigViewModel_Example.framework */,
+				03E3DB34C24452A4C1B3CDFD /* Pods_BigViewModel_Example_BigViewModel_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -200,12 +200,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "BigViewModel_Example" */;
 			buildPhases = (
-				E2C7474A429E3DAD48E4BE6B /* Check Pods Manifest.lock */,
+				1451ABD85F270171B3E912FF /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				877B5ADC6C65D9D4B3FE62AC /* Embed Pods Frameworks */,
-				782D38B8A736BA064BBFD0F7 /* Copy Pods Resources */,
+				3A4ECCCD47CD7EAF488A341F /* [CP] Embed Pods Frameworks */,
+				7FF17907055C4D5E38037FB3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -220,12 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "BigViewModel_Tests" */;
 			buildPhases = (
-				193809EDDA10852255BBB32E /* Check Pods Manifest.lock */,
+				E610486E4FA59121577A8631 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				6DED3B11F68DD592BCB6AA7C /* Embed Pods Frameworks */,
-				27264440AD31A0C73FA6053C /* Copy Pods Resources */,
+				926B6D7040C80F4D840010F2 /* [CP] Embed Pods Frameworks */,
+				EA16B2113D3FFE8A69512C0B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -293,14 +293,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		193809EDDA10852255BBB32E /* Check Pods Manifest.lock */ = {
+		1451ABD85F270171B3E912FF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,59 +308,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		27264440AD31A0C73FA6053C /* Copy Pods Resources */ = {
+		3A4ECCCD47CD7EAF488A341F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BigViewModel_Tests/Pods-BigViewModel_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6DED3B11F68DD592BCB6AA7C /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BigViewModel_Tests/Pods-BigViewModel_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		782D38B8A736BA064BBFD0F7 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BigViewModel_Example/Pods-BigViewModel_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		877B5ADC6C65D9D4B3FE62AC /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,19 +323,64 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BigViewModel_Example/Pods-BigViewModel_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E2C7474A429E3DAD48E4BE6B /* Check Pods Manifest.lock */ = {
+		7FF17907055C4D5E38037FB3 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BigViewModel_Example/Pods-BigViewModel_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		926B6D7040C80F4D840010F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BigViewModel_Example-BigViewModel_Tests/Pods-BigViewModel_Example-BigViewModel_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E610486E4FA59121577A8631 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EA16B2113D3FFE8A69512C0B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BigViewModel_Example-BigViewModel_Tests/Pods-BigViewModel_Example-BigViewModel_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -509,7 +509,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72883F1C3A4CB425F861FEA4 /* Pods-BigViewModel_Example.debug.xcconfig */;
+			baseConfigurationReference = 48C2D05508E07EB9A28AB083 /* Pods-BigViewModel_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -525,7 +525,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B2CD3D09A3412A508E4DFA9 /* Pods-BigViewModel_Example.release.xcconfig */;
+			baseConfigurationReference = AD348422DB2A8EF2BF9201F5 /* Pods-BigViewModel_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -541,7 +541,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F883EEFEC0C27D4EED2E01E5 /* Pods-BigViewModel_Tests.debug.xcconfig */;
+			baseConfigurationReference = 784151181548E636C03D2863 /* Pods-BigViewModel_Example-BigViewModel_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -565,7 +565,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6CCBCB7901CDFE23413275A5 /* Pods-BigViewModel_Tests.release.xcconfig */;
+			baseConfigurationReference = CF5227A4C56E8429FA9DAAE5 /* Pods-BigViewModel_Example-BigViewModel_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
