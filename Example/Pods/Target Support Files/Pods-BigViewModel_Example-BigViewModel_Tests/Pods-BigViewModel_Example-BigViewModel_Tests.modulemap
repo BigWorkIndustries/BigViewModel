@@ -1,0 +1,6 @@
+framework module Pods_BigViewModel_Example_BigViewModel_Tests {
+  umbrella header "Pods-BigViewModel_Example-BigViewModel_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,13 +1,15 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'BigViewModel_Example', :exclusive => true do
+target 'BigViewModel_Example' do
   pod 'BigViewModel', :path => '../'
-end
-
-target 'BigViewModel_Tests', :exclusive => true do
+  
+  target 'BigViewModel_Tests' do
   pod 'BigViewModel', :path => '../'
 
   pod 'Specta'
   pod 'Expecta'
 end
+
+end
+
