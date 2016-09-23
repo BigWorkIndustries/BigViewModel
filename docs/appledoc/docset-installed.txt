@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/vincilbishop/Library/Developer/Shared/Documentation/DocSets/com.bigworkindustries.BigViewModel.docset
+Time: 2016-09-23 17:23:04 +0000
