@@ -1,6 +1,6 @@
 
 #import "BigViewModel.h"
 
-@implementation BigViewModel.m
+@implementation BigViewModel
 
 @end
